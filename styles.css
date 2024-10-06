@@ -1,0 +1,90 @@
+.body {
+    font-family: Arial, sans-serif;
+    margin: 1px;
+    padding: 1px;
+  }
+  .main{
+      flex-direction: row;
+      justify-content: center;
+      display: flex;
+      font-family: caveat;
+      font-size: 40px;
+      text-underline-position: under;
+      text-decoration: underline;
+  }
+  
+  
+  .logo {
+    font-size: 30px;
+    font-weight: bold;
+  
+    margin-bottom: 10px;
+  }
+  
+  .heading{
+      font-family: Arial, sans-serif;
+      font-size: 25px;
+      padding: 5px;
+       display: flex;
+    justify-content: center;
+      
+  }
+  .paragraph{
+      font-family: roboto;
+      font-size: 20px;
+      margin-left: 25px;
+     
+  }
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+  .element {
+    margin: 10px;
+    font-family: "roboto";
+    font-size: 20px;
+  }
+  .card{
+      background-image: url("https://storage.googleapis.com/a1aa/image/jgehznasoIxrAS0zvJHRe8UkefHfWmPR7wCfDIbblD6RUk64E.jpg");
+      background-size: cover;
+      height: 100vh;
+      background-position: center;
+      
+  }
+  .head{
+      margin-left: 23px;
+  }
+  .time{
+      font-family: "Roboto";
+      font-size: 20px;
+      padding: 4px;
+  
+  box-shadow: 0 0 0px #cdc65d,
+  0 0 0px #cdc65d;
+  }
+ 
+  button:hover {
+    box-shadow: 0 0 5px #cdc65d,
+    0 0 25px #cdc65d, 0 0 50px #cdc65d,
+    0 0 100px #cdc65d, 0 0 200px #cdc65d;
+    }
+  .page{
+    margin-left: 670px;
+    margin-top: 60px;
+    padding: 2px;
+    font-family: "Roboto";
+    font-size: 20px;
+
+    button:hover {
+        box-shadow: 0 0 5px #cdc65d,
+        0 0 25px #cdc65d, 0 0 50px #cdc65d,
+        0 0 100px #cdc65d, 0 0 200px #cdc65d;
+        }
+  }
+   .poco{
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     left: 50%;
+     
+   }
