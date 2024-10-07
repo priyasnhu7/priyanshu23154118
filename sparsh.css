@@ -75,3 +75,50 @@ body {
     background-color: #3e8e41;
 
 }
+@media only screen and (max-width: 1080px) {
+    .container {
+      width: 90%;
+      margin: 20px auto;
+    }
+  
+    .form-input {
+      height: 30px;
+      margin-bottom: 15px;
+    }
+  
+    .button {
+      padding: 8px 15px;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .container {
+      width: 95%;
+      margin: 15px auto;
+    }
+  
+    .form-input {
+      height: 25px;
+      margin-bottom: 10px;
+    }
+  
+    .button {
+      padding: 6px 12px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .container {
+      width: 98%;
+      margin: 10px auto;
+    }
+  
+    .form-input {
+      height: 20px;
+      margin-bottom: 5px;
+    }
+  
+    .button {
+      padding: 4px 10px;
+    }
+  }

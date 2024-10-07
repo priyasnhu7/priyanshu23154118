@@ -99,3 +99,16 @@ button:hover {
   }
 
 }
+@media only screen and (max-width: 1080px) {
+  .card {
+    height: 50vh;
+    width: 50vw;
+  }
+  .page {
+    margin-left: 400px;
+    margin-top: 30px;
+  }
+  .poco {
+    left: 40%;
+  }
+}
