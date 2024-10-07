@@ -76,3 +76,8 @@
     width: 25vw;
 
 }
+@media screen and (max-width: 800px) {
+    .container {
+      width: 100%;
+    }
+  }
